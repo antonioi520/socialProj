@@ -9,9 +9,9 @@
 Class Accounts extends DB{
     public function __construct() {
         $dbConfig = array(
-            "DB_DNS" => 'mysql:host=mysql.antrodo.com;port=3306;dbname=antrodo',
-            "DB_USER" => 'antisa2',
-            "DB_PASSWORD" => 'Antonio1'
+            "DB_DNS" => 'mysql:host=?',
+            "DB_USER" => '?',
+            "DB_PASSWORD" => '?'
         );
         parent::__construct($dbConfig);
     }
